@@ -29,7 +29,7 @@
 | `luajit.exe` | LuaJIT 解释器，用于运行 `spti.lua` |
 | `luajit_iup.exe` | 带 IUP 支持的 LuaJIT，启动时自动加载 `main.lua` |
 
-> **只需要下载[U盘ISO更新程序1.4.exe](https://github.com/marskid/usb-cdrom-tool/releases/tag/release)即可运行，无其他依赖文件。**
+> **只需要下载[U盘ISO更新程序1.4.exe](https://github.com/marskid/usb-cdrom-tool/releases)即可运行，无其他依赖文件。**
 > 其他文件用于开发调试。
 
 > 注：`luajit.exe` 和 `luajit_iup.exe` 已上传到仓库，方便直接运行脚本，无需自行配置 LuaJIT 环境。
