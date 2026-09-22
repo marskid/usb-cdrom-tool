@@ -38,16 +38,16 @@ local APP_COPYRIGHT   = string.format([[
 %s 版本 %s
 Copyright (C) %s %s
 
-本程序是自由软件：你可以根据自由软件基金会发布的 GNU 通用公共许可证
+本程序是自由软件：你可以根据自由软件基金会发布的 GNU 通用公共许可证  
 （许可证第 3 版，或你选择的任何更新版本）重新分发和/或修改它。
 
-本程序的发布是希望它能有用，但没有任何担保；甚至没有适销性或特定用途
+本程序的发布是希望它能有用，但没有任何担保；甚至没有适销性或特定用途  
 适用性的默示担保。详情请参阅 GNU 通用公共许可证。
 
-你应该已随本程序收到一份 GNU 通用公共许可证的副本。如果没有，请访问
+你应该已随本程序收到一份 GNU 通用公共许可证的副本。如果没有，请访问  
  <https://www.gnu.org/licenses/>。
 
-注意：本程序涉及磁盘操作，可能造成数据丢失甚至损坏设备。作者已明确声
+注意：本程序涉及磁盘操作，可能造成数据丢失甚至损坏设备。作者已明确声  
 明不承担任何因使用本程序导致的直接或间接损失。
 ]], APP_NAME, APP_VERSION, APP_YEAR, APP_AUTHOR)
 
@@ -1498,19 +1498,19 @@ local function show_about()
             margin = "16x5",
             iup.hbox {
                 iup.label { title = APP_COPYRIGHT, font = FONT },
-                gap = "8",
+                gap = "1",
                 alignment = "ACENTER",
             },
             iup.hbox {
                 iup.label { title = "项目地址:", font = FONT },
                 iup.link { title = APP_GITHUB, url = APP_GITHUB, font = FONT, rastersize = "x17" },
-                gap = "8",
+                gap = "1",
                 alignment = "ACENTER",
             },
             iup.hbox {
                 iup.label { title = jit.version, font = FONT },
                 iup.link { title = "https://luajit.org", url = "https://luajit.org", font = FONT, rastersize = "x17" },
-                gap = "8",
+                gap = "1",
                 alignment = "ACENTER",
             },
             iup.hbox {
@@ -1522,7 +1522,7 @@ local function show_about()
                     font = FONT,
                     rastersize = "x17",
                 },
-                gap = "8",
+                gap = "1",
                 alignment = "ACENTER",
             },
             iup.hbox { iup.fill {}, btn_ok },
