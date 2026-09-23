@@ -9,6 +9,7 @@
 ---
 
 ## 功能特点
+<div align="center"><img width="619" height="232" alt="image" src="https://github.com/user-attachments/assets/d3654b2a-4646-4ba7-8b86-017a2bc9087c" /></div>
 
 - **直接 SCSI 直通**：通过 SPTI 向 CD-ROM 设备发送 INQUIRY / READ CAPACITY / READ(10) / WRITE(10) / WRITE(12) 等 SCSI 命令，绕过文件系统层。
 - **自动枚举设备**：扫描 `\\.\CDROM0` ~ `\\.\CDROM15`，并额外探测 `PhysicalDrive0~7` 中 PDT 为 0x05（CD/DVD）的设备。
